@@ -1,0 +1,127 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #6c5ce7);
+  color: #2d3436;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 95%;
+  max-width: 700px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #6c5ce7;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #6c5ce7;
+  outline: none;
+  box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #6c5ce7;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background: #a29bfe;
+}
+
+/* Table Styles */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  color: #2d3436;
+}
+
+.todo-table th, .todo-table td {
+  border: 1px solid #dfe6e9;
+  padding: 12px;
+  text-align: center;
+}
+
+.todo-table th {
+  background: #6c5ce7;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.todo-table tbody tr:nth-child(odd) {
+  background: #f8f9fa;
+}
+
+
+.delete-btn {
+  background: #e74c3c;
+}
+
+.update-btn {
+  background: #59e493;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.update-btn:hover {
+  background: #2ecc71;
+}
+
+@media (max-width: 600px) {
+  .todo-table th, .todo-table td {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}
+

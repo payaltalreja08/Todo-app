@@ -1,0 +1,38 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Environment variables
+*.env
+
+# Database files
+*.sqlite3
+*.db
+
+# IDE/Editor configurations
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Byte-compiled files
+*.pyc
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Static and cache files
+instance/
+.cache/
